@@ -1,0 +1,13 @@
+.top-film{
+  &-container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  &-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem 0;
+  }
+}

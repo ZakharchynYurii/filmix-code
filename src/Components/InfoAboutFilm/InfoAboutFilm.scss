@@ -1,0 +1,47 @@
+.about-film{
+  &-container{
+    width: 1200px;
+    margin: 1rem auto;
+  }
+
+  .info{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #19334d;
+  }
+
+  .vote{
+    font-weight: bold;
+    color: #2d5986;
+  }
+
+  .desc{
+    color: #19334d;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &-overview{
+    color: #19334d;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+  }
+
+  &-release{
+    padding-top: 1rem;
+    color: #19334d;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &-wrapper{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 1rem;
+  }
+}

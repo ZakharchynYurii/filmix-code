@@ -1,0 +1,28 @@
+.card{
+  padding: 1rem;
+  &-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0 3rem;
+  }
+
+  &-title{
+    color: #19334d;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  &-vote{
+    background-color: #19334d;
+    color: yellow;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+  }
+
+  .btn{
+    position: absolute;
+    bottom: 5%;
+    left: 37%;
+  }
+}

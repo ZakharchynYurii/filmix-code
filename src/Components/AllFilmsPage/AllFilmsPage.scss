@@ -1,0 +1,21 @@
+.all-films{
+  width: 1200px;
+  margin: 1rem auto;
+
+  .title{
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .input{
+    width: 100%;
+    padding: 1rem;
+  }
+
+  &-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+  }
+}
